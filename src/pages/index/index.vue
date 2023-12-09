@@ -2,7 +2,8 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title">{{ title }}</text>
+      <text class="title !text-red !text-30rpx">{{ title }}</text>
+      <i class="i-gg-arrow-top-left-o hover:i-gg-arrow-right-r" />
     </view>
   </view>
 </template>
